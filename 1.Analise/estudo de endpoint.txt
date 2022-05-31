@@ -1,0 +1,61 @@
+\POST
+
+
+resquest body{
+    "email": "camillyoliveiradacosta6@gmail";
+    "senha": "3110"
+
+}
+
+response
+{
+    "id"; 0,
+    "email" : "",
+    "nome": ""
+}
+
+/POST         /filme/
+
+
+resquest body{
+    "nome",
+    "sinopse"
+    "avaliação"
+    "lançamento"
+    "usuario",
+    "disponivel",
+    "imagem"
+
+}
+/POST                filme/:id
+
+resquest body {
+    "nome",
+    "sinopse"
+    "avaliação"
+    "lançamento"
+    "usuario",
+    "disponivel",
+    "imagem"
+
+}
+
+response(204)
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/PUT
+/DELETE         /filme/:id
+
+response(204)
+
+/GET             /filme 
+
+response(204)
+resquest [
+    "nome",
+    "lançamento"
+    "avaliação"
+    "usuario",
+    "disponivel",
+]
